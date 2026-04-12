@@ -9,3 +9,17 @@
   --main-text-shadow: 4px 4px 0 var(--accent-color);
   --small-text-shadow: 2px 2px 0 var(--accent-color);
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-image: url(../images/cover-image-dark.png);
+    --bg-color: #000131;
+    --accent-color: #ff0070;
+    --accent-hover-color: rgba(255, 0, 112, 0.4);
+    --main-text-color: #f1b2ce;
+    --section-title-color: var(--accent-color);
+    --title-color: #db00ff;
+    --main-text-shadow: 4px 4px 0 var(--accent-color);
+    --small-text-shadow: 2px 2px 0 var(--accent-color);
+  }
+}

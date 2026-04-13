@@ -2,14 +2,14 @@
   --bg-image: url(../images/cover-image-light.png);
   --bg-color: #fff1f7;
   --accent-color: #ff8dcb;
-  --accent-hover-color: rgba(50, 49, 45, 0.4); 
+  --accent-hover-color: rgba(50, 49, 45, 0.4);
   --theme-menu-button-color: #353430;
   --decorated-zone-color: #353430;
   --main-text-color: #353430;
   --section-title-color: #353430;
-  --title-color: #FFC2E6;
-  --main-text-shadow: 4px 4px 0 #FF8DCB;
-  --small-text-shadow: 2px 2px 0 #FF8DCB;
+  --title-color: #ffc2e6;
+  --main-text-shadow: 4px 4px 0 #ff8dcb;
+  --small-text-shadow: 2px 2px 0 #ff8dcb;
 }
 
 :root.theme-light .header__decorative-text {
@@ -26,9 +26,9 @@
     --decorated-zone-color: #353430;
     --main-text-color: #353430;
     --section-title-color: #353430;
-    --title-color: #FFC2E6;
-    --main-text-shadow: 4px 4px 0 #FF8DCB;
-    --small-text-shadow: 2px 2px 0 #FF8DCB;
+    --title-color: #ffc2e6;
+    --main-text-shadow: 4px 4px 0 #ff8dcb;
+    --small-text-shadow: 2px 2px 0 #ff8dcb;
   }
 
   .header__decorative-text {

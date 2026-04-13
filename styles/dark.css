@@ -8,6 +8,8 @@
   --title-color: #db00ff;
   --main-text-shadow: 4px 4px 0 var(--accent-color);
   --small-text-shadow: 2px 2px 0 var(--accent-color);
+  --theme-menu-button-color: var(--accent-color);
+  --decorated-zone-color: var(--accent-color);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,5 +23,7 @@
     --title-color: #db00ff;
     --main-text-shadow: 4px 4px 0 var(--accent-color);
     --small-text-shadow: 2px 2px 0 var(--accent-color);
+    --theme-menu-button-color: var(--accent-color);
+    --decorated-zone-color: var(--accent-color);
   }
 }

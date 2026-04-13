@@ -12,6 +12,10 @@
   --decorated-zone-color: var(--accent-color);
 }
 
+:root.theme-dark .header__decorative-text {
+  display: block;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-image: url(../images/cover-image-dark.png);
@@ -25,5 +29,9 @@
     --small-text-shadow: 2px 2px 0 var(--accent-color);
     --theme-menu-button-color: var(--accent-color);
     --decorated-zone-color: var(--accent-color);
+  }
+
+  .header__decorative-text {
+    display: block;
   }
 }

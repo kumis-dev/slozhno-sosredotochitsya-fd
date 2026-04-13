@@ -17,8 +17,8 @@
   position: relative;
   display: grid;
   grid-template-rows: min-content 1fr min-content;
-  min-block-size: calc(100vh - 20px);
-  block-size: auto;
+  min-height: calc(100vh - 20px);
+  height: auto;
   margin-bottom: 50px;
 }
 
@@ -196,8 +196,8 @@ h4.section__subtitle {
 .footer {
   margin-top: 50px;
   display: grid;
-  min-block-size: calc(100vh - 20px);
-  block-size: auto;
+  min-height: calc(100vh - 20px);
+  height: auto;
   place-items: center;
   position: relative;
 }
